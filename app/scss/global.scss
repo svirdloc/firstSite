@@ -1,0 +1,42 @@
+html, body {
+    height: 100%;
+    // scroll-behavior: smooth; // Плавный скролл по якорю
+    
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #c0c0c0;
+    overflow-x: hidden;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+
+.main {
+    flex: 1 1 auto;
+}
+
+.footer {
+    flex: 0 0 auto;
+}
+
+
+
+.container {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.container__wide {
+    max-width: 960px;
+}
+
+

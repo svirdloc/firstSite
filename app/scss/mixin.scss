@@ -1,0 +1,20 @@
+
+
+@mixin header {
+    background-image: url(https://img1.akspic.ru/originals/2/6/4/4/3/134462-shchipkovyye_strunnyye_instrumenty-muzykant-muzykalnyye_instrumenty-muzykalnyj_instrument-basgitara-3840x2160.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@mixin main {
+    background-image: url(https://img1.akspic.ru/previews/9/7/4/4/3/134479/134479-elektronnoe_ustrojstvo-tehnologia-fortepyano-muzyka-zvukovye_sintezatory-x750.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
